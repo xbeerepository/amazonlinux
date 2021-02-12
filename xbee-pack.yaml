@@ -1,0 +1,11 @@
+schema-version: 1.0
+type: system
+
+system:
+  user: ec2-user
+
+provider:
+  aws:
+    amis:
+      eu-west-3: ami-093fa4c538885becf
+      us-east-1: ami-02354e95b39ca8dec
